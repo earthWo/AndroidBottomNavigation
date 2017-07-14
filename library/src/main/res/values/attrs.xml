@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="bottom_navigation">
+        <attr name="menu" format="reference" />
+        <attr name="background_color" format="color" />
+        <attr name="shifting_mode" format="boolean" />
+        <attr name="animation_time" format="integer" />
+    </declare-styleable>
+
+</resources>
