@@ -69,8 +69,7 @@ public class BottomNavigationView extends FrameLayout {
 
         if (a.hasValue(R.styleable.bottom_navigation_background_color)) {
             backgroundColor=a.getColor(R.styleable.bottom_navigation_background_color, ContextCompat.getColor(getContext(),R.color.default_color));
-            bottomNavigationMenuView.setBackgroundColor(backgroundColor);
-
+            setBackgroundColor(backgroundColor);
         }
 
         if (a.hasValue(R.styleable.bottom_navigation_animation_time)) {
@@ -188,8 +187,10 @@ public class BottomNavigationView extends FrameLayout {
         if(colors==null||colors.length<bottomNavigationMenuView.getChildCount()){
             throw new Exception("颜色数量要不能少于菜单数量");
         }
-        this.colors = colors;
-        setBackgroundColor(colors[bottomNavigationMenuView.getSelectPosition()]);
+        if(bottomNavigationMenuView.isShiftingMode()) {
+            this.colors = colors;
+            setBackgroundColor(colors[bottomNavigationMenuView.getSelectPosition()]);
+        }
     }
 
     public void setAnimationTime(int time){

@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_gravity="bottom"
-        app:background_color="@color/black"
+        app:background_color="@color/colorAccent"
         app:shifting_mode="true"
         app:animation_time="100"
         app:menu="@menu/bottom_items">
