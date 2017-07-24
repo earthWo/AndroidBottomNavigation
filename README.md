@@ -2,7 +2,7 @@
 
 ## 截图
 ![](http://7xjrms.com1.z0.glb.clouddn.com/SM-G9500_20170714102952.gif?imageView2/2/w/200/h/420)
-![](http://7xjrms.com1.z0.glb.clouddn.com/SM-G9500_20170714103217.gif?imageView2/2/w/200/h/420)
+![](http://7xjrms.com1.z0.glb.clouddn.com/SM-G9500_20170714103217.gif?imageView2/2/w/400/h/800)
 ## 使用方法
 ```
 <com.whitelife.library.BottomNavigationView
