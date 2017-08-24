@@ -9,6 +9,9 @@ import android.transition.TransitionManager;
 import android.transition.TransitionSet;
 import android.util.AttributeSet;
 import android.view.View;
+import android.view.animation.Interpolator;
+
+import java.lang.reflect.Proxy;
 
 /**
  * Created by wuzefeng on 2017/7/24.
@@ -32,7 +35,7 @@ public class BottonNavigationBehavior extends CoordinatorLayout.Behavior<View> {
                     transitionSet.addTransition(new Fade());
                 }
             }
-            transitionSet.setDuration(200);
+            transitionSet.setDuration(100);
         }
     }
 
