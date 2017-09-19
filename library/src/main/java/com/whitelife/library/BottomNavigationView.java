@@ -14,6 +14,8 @@ import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.widget.FrameLayout;
 
+import java.util.Arrays;
+
 /**
  * Created by wuzefeng on 2017/7/13.
  */
@@ -182,13 +184,29 @@ public class BottomNavigationView extends FrameLayout {
     public int[] getColors() {
         return colors;
     }
+    public void setColors(int[] colors) {
+        int[]total=new int[bottomNavigationMenuView.getChildCount()];
+        if(colors==null){
+            return;
+        }else if(colors.length<bottomNavigationMenuView.getChildCount()){
+            int cCount=bottomNavigationMenuView.getChildCount()-colors.length;
+            int[] cs=new int[cCount];
+            if(cCount<=colors.length){
+                cs= Arrays.copyOf(colors,cCount);
+            }else{
+                for(int i=0,j=0;i<cCount;i++,j++){
+                    if(j==colors.length){
+                        j=0;
+                    }
+                    cs[i]=colors[j];
+                }
+            }
 
-    public void setColors(int[] colors) throws Exception {
-        if(colors==null||colors.length<bottomNavigationMenuView.getChildCount()){
-            throw new Exception("颜色数量要不能少于菜单数量");
+            System.arraycopy(colors,0,total,0,colors.length);
+            System.arraycopy(cs,0,total,colors.length,cs.length);
         }
         if(bottomNavigationMenuView.isShiftingMode()) {
-            this.colors = colors;
+            this.colors = total;
             setBackgroundColor(colors[bottomNavigationMenuView.getSelectPosition()]);
         }
     }
