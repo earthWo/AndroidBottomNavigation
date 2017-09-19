@@ -22,11 +22,7 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView bottomNavigationView= (BottomNavigationView) findViewById(R.id.bottom_navigation);
 
         int color[]={Color.RED,Color.BLUE,Color.GREEN};
-        try {
-            bottomNavigationView.setColors(color);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        bottomNavigationView.setColors(color);
         RecyclerView recyclerView= (RecyclerView) findViewById(R.id.list);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);
