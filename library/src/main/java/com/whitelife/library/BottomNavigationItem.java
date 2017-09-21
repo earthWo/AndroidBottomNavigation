@@ -62,7 +62,6 @@ public class BottomNavigationItem extends FrameLayout{
         defaultColor =  ColorStateList.valueOf(ContextCompat.getColor(getContext(),R.color.color_gray));
         whiteColor =  ColorStateList.valueOf(Color.WHITE);
         shiftNormalColor =  ColorStateList.valueOf(ContextCompat.getColor(getContext(),R.color.shift_color_gray));
-
     }
 
     public Drawable getIcon() {

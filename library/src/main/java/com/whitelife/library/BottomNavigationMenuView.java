@@ -141,7 +141,7 @@ public class BottomNavigationMenuView extends ViewGroup implements View.OnClickL
                 }
                 getChildAt(i).measure(MeasureSpec.makeMeasureSpec(childWidths[i],MeasureSpec.EXACTLY),height);
             }
-        }else{  //不摆动状态
+        }else{     //不摆动状态
 
             largeWidth=0;
             if(count>0){
