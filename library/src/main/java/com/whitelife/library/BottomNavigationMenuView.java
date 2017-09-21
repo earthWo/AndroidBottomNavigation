@@ -145,9 +145,9 @@ public class BottomNavigationMenuView extends ViewGroup implements View.OnClickL
 
             largeWidth=0;
             if(count>0){
-                normalWidth=width/count;
+                normalWidth=width / count;
             }else{
-                normalWidth=    0;
+                normalWidth=30;
             }
 
             for(int i=0;i<count;i++){
