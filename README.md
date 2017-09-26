@@ -4,6 +4,19 @@
 ![](http://7xjrms.com1.z0.glb.clouddn.com/SM-G9500_20170714102952.gif)
 ![](http://7xjrms.com1.z0.glb.clouddn.com/SM-G9500_20170714103217.gif)
 ## 使用方法
+
+gradle:
+```compile 'com.whitelife.library:library:1.0'```
+maven:
+```
+<dependency>
+  <groupId>com.whitelife.library</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0</version>
+  <type>pom</type>
+</dependency>
+```
+
 ```
 <com.whitelife.library.BottomNavigationView
        android:id="@+id/bottom_navigation"
