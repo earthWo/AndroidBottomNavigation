@@ -3,12 +3,12 @@
 ## 截图
 ![](http://7xjrms.com1.z0.glb.clouddn.com/SM-G9500_20171003153112_1.gif)
 ![](http://7xjrms.com1.z0.glb.clouddn.com/SM-G9500_20171003153840_1.gif)
-
 ![](http://7xjrms.com1.z0.glb.clouddn.com/SM-G9500_20171003153922_1.gif)
 
 ## 使用方法
 
 gradle:
+
 ```compile 'com.whitelife.library:library:1.0.1'```
 
 maven:
