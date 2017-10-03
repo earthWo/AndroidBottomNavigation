@@ -12,7 +12,6 @@ gradle:
 ```compile 'com.whitelife.library:library:1.0.1'```
 
 maven:
-
 ```
 <dependency>
   <groupId>com.whitelife.library</groupId>
