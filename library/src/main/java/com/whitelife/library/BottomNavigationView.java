@@ -80,9 +80,9 @@ public class BottomNavigationView extends FrameLayout {
 
         if (a.hasValue(R.styleable.bottom_navigation_shifting_mode)) {
             bottomNavigationMenuView.setFinalShiftingMode(a.getBoolean(R.styleable.bottom_navigation_shifting_mode, false));
-            setColor();
-        }
 
+        }
+        setColor();
         a.recycle();
         //添加view
         addView(bottomNavigationMenuView);

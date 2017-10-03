@@ -3,8 +3,5 @@
     <item android:id="@+id/b1" android:title="首页" android:icon="@drawable/ic_home_black_24dp" ></item>
     <item android:id="@+id/b2" android:title="发现" android:icon="@drawable/ic_dashboard_black_24dp" ></item>
     <item android:id="@+id/b3" android:title="设置" android:icon="@drawable/ic_notifications_black_24dp" ></item>
-    <item android:id="@+id/b4" android:title="通知" android:icon="@drawable/ic_reorder_black_24dp" ></item>
-    <item android:id="@+id/b5" android:title="通知" android:icon="@drawable/ic_reorder_black_24dp" ></item>
-    <item android:id="@+id/b6" android:title="通知" android:icon="@drawable/ic_reorder_black_24dp" ></item>
 
 </menu>

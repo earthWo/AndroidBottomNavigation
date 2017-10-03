@@ -1,13 +1,18 @@
 # AndroidBottomNavigation
 
 ## 截图
-![](http://7xjrms.com1.z0.glb.clouddn.com/SM-G9500_20170714102952.gif)
-![](http://7xjrms.com1.z0.glb.clouddn.com/SM-G9500_20170714103217.gif)
+![](http://7xjrms.com1.z0.glb.clouddn.com/SM-G9500_20171003153112_1.gif)
+![](http://7xjrms.com1.z0.glb.clouddn.com/SM-G9500_20171003153840_1.gif)
+
+![](http://7xjrms.com1.z0.glb.clouddn.com/SM-G9500_20171003153922_1.gif)
+
 ## 使用方法
 
 gradle:
-```compile 'com.whitelife.library:library:1.0'```
+```compile 'com.whitelife.library:library:1.0.1'```
+
 maven:
+
 ```
 <dependency>
   <groupId>com.whitelife.library</groupId>
@@ -50,7 +55,11 @@ int color[]={Color.RED,Color.BLUE,Color.GREEN};
 
 ## 与官方控件的区别
 1.可以指定动画时间
+
 2.可以设置点击水波纹的颜色
+
 3.可以强制指定动画类型
+
 4.可以突破菜单个数限制
+
 5.添加滑动动画
